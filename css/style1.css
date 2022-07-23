@@ -1,0 +1,246 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #FFFFFF;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #FFFFFF;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.calimd-appbar {
+  box-shadow: 0 2px 16px 0px #57aff77a
+}
+
+.mdui-theme-primary-calibur .mdui-color-theme {
+  color: #fff !important;
+  background-color: #57aff7 !important;
+}
+
+.mdui-theme-accent-calibur .mdui-color-theme-accent {
+  color: #fff !important;
+  background-color: #57aff7 !important;
+}
+
+.calibur-color-pink {
+  color: #fff !important;
+  background-color: #57aff7 !important;
+}
+
+.mdui-theme-primary-calibur .mdui-text-color-theme {
+  color: #57aff7 !important;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.mdui-tab .mdui-tab-active {
+  color: #57aff7 !important;
+}
+
+.mdui-checkbox input[type=checkbox]:checked+.mdui-checkbox-icon::after {
+  background-color: #57aff7 !important;
+  border-color: #57aff7 !important;
+  border-top-color: #57aff7 !important;
+  border-right-color: #57aff7 !important;
+  border-bottom-color: #57aff7 !important;
+  border-left-color: #57aff7 !important;
+}
+
+.mdui-radio-icon::before {
+  background-color: #57aff7 !important
+}
+
+.mdui-radio input[type=radio]:checked+.mdui-radio-icon {
+  border-color: #57aff7 !important;
+  border-top-color: #57aff7 !important;
+  border-right-color: #57aff7 !important;
+  border-bottom-color: #57aff7 !important;
+  border-left-color: #57aff7 !important;
+}
+
+.mdui-tab-indicator {
+  background-color: #57aff7 !important
+}
+
+
+iframe{
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  background: #212224;
+  margin: 0;
+  border: 0;
+}
+
+.mdui-appbar {
+  box-shadow: 0 2px 4px -1px rgb(251 104 129 / 20%), 0 4px 5px 0 rgb(251 104 129 / 14%), 0 1px 10px 0 rgb(251 104 129 / 12%);
+}
+
+.mdui-card {
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 10%), 0 2px 2px 0 rgb(0 0 0 / 7%), 0 1px 5px 0 rgb(0 0 0 / 6%);
+}
+
+.mdui-hoverable:focus, .mdui-hoverable:hover {
+  box-shadow: 0 5px 5px -3px rgb(0 0 0 / 10%), 0 8px 10px 1px rgb(0 0 0 / 7%), 0 3px 14px 2px rgb(0 0 0 / 6%);
+}
+
+.mdui-btn-raised {
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 10%), 0 2px 2px 0 rgb(0 0 0 / 7%), 0 1px 5px 0 rgb(0 0 0 / 6%);
+}
+
+.mdui-btn-raised:hover {
+  box-shadow: 0 2px 4px -1px rgb(0 0 0 / 10%), 0 4px 5px 0 rgb(0 0 0 / 7%), 0 1px 10px 0 rgb(0 0 0 / 6%);
+}
+
+.mdui-table-fluid {
+  box-shadow: 0 3px 1px -2px rgb(0 0 0 / 10%), 0 2px 2px 0 rgb(0 0 0 / 7%), 0 1px 5px 0 rgb(0 0 0 / 6%);
+}
+
+.tabcontainer{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+  }
+
+.youcantselect{
+  user-select: none;
+}
+
+.logo{
+  display: block;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+}
+
+.logo2{
+  display: block;
+  line-height: 32px;
+  width: auto;
+  height: 24px;
+}
+
+.bodyooo{
+  overflow-x: hidden;
+}
+
+.howtocenter{
+  margin: 0 auto;
+}
+
+.biglogo{
+  padding-top: 1.5rem;
+  width:90%;
+  height: auto;
+  
+}
+
+.biglogoson{
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  filter: drop-shadow(0 0.2rem 0.75rem #78b5fb);
+}
+
+.shadowtext{
+  text-shadow: 0 0 0.6rem #78b5fb;
+}
+
+.headtext2{
+  font-size: 1.2rem;
+  line-height: 2rem;
+  padding-top: 20px;
+}
+
+.links{
+  line-height: 2rem;
+}
+
+.calibur-chapter-title {
+padding: 80px 0 0 0;
+}
+
+.calibur-chapter-title-first {
+padding: 40px 0 0 0;
+}
+
+.calibur-chapter-description {
+  padding: 0 0 20px 0;
+}
+
+.color-guide-text {
+	font-size: 15px;
+	font-family: 'JetBrains Mono','Ubuntu Mono','Cascadia Code PL','Menlo','Consolas','Source Code Pro','Monaco','Noto Mono','Nimbus Mono L','Courier New', 'Microsoft YaHei UI', 'Microsoft YaHei', 'Noto Sans CJK SC', 'Fuck Simsun No Simsun', monospace;
+}
+
+.color-guide-colors li {
+	border-radius: 3px;
+	padding: 10px 15px;
+	margin-bottom: 15px;
+}
+
+.mdui-list-item-active {
+  background-color: rgba(251,104,129,.16);
+}
+
+.mdui-list-item-active::before {
+  content: '';
+  display: block;
+  height: 24px;
+  width: 3px;
+  background-color: #7286fb;
+  position: absolute;
+  left: 0px;
+}
